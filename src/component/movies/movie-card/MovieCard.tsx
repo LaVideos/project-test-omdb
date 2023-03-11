@@ -25,6 +25,7 @@ export default function MovieCard({ movie, isFavorite = false }: Props) {
             JSON.parse(item).forEach((item:Movie) => {
                 if (item.imdbID === imdbID) {
                     setFav(true)
+                    dispatch(moviesActions.addToFavorites(movie));
                 }
             });
         }
