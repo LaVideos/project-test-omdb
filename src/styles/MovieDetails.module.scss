@@ -1,0 +1,90 @@
+.wrapLight{
+  display: flex;
+  color: white;
+
+  justify-content: flex-start;
+}
+
+.container{
+  background: #848a8d;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.wrapLight{
+
+}
+
+.dataContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.title{
+  font-size: 40px;
+}
+
+.overview p {
+  font-size: 22px;
+}
+
+.data{
+  width: 50%;
+
+}
+
+.data div {
+  margin:10px;
+  background: #404142;
+
+  transition: 100ms;
+  padding: 5px;
+}
+
+.data img {
+  border-radius: 10px;
+  padding: 20px;
+
+  box-sizing: border-box;
+}
+
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titlePoster{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin: 20px 30px 20px 30px;
+}
+
+.titlePoster img {
+  border-radius: 10px;
+}
+
+
+.infoPageLight, .infoPageDark{
+  width: 100%;
+}
+
+.data div:hover {
+  background: #848a8d;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapLight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

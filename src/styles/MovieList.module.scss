@@ -1,0 +1,98 @@
+.container {
+  max-width: 1200px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.arr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+.containerFavorite{
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.pages{
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e6e6e6;
+  font-size: 60px;
+}
+
+.btnContainer{
+  width: 100%;
+   display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.mainarr {
+  display: flex;
+  align-items: center;
+}
+
+.center{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.pagination{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom:10px ;
+}
+
+.error{
+  font-size: 40px;
+  color: #bb0000;
+}
+
+
+.noAnyData,.loading{
+  color: #e6e6e6;
+}
+
+.noAnyData,.loading,.error{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+  @media screen and (max-width: 1024px) {
+    .arr {
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .arr {
+      flex-direction: column;
+      align-items: center;
+    }
+    .pages{
+      font-size: 28px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .arr {
+      padding: 0 10px;
+    }
+  }
+

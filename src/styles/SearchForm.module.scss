@@ -1,0 +1,57 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 50px;
+  padding: 5px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.searchInput {
+  flex: 1;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+  color: #333;
+  border: none;
+  outline: none;
+
+  &::placeholder {
+    color: #333;
+  }
+}
+
+.MuiIconButton-root {
+  color: #333;
+  background-color: #f2f2f2;
+
+  &:hover {
+    background-color: #e6e6e6;
+  }
+}
+
+.header{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100% ;
+  height: 60px;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.btn{
+  color: #666666;
+}
