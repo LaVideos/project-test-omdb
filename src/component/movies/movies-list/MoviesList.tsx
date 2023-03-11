@@ -57,7 +57,7 @@ export default function MoviesList() {
                             ))}
                     </Grid>
                         <div  className={styles.pagination}>
-                            <Pagination variant={"outlined"} color={"standard"} count={totalPages} page={page} onChange={(_, value) => setPage(value)}/>
+                            <Pagination variant={"outlined"} color={"standard"} count={totalPages} page={page} onChange={(_, value: number) => setPage(value)} />
                         </div>
                     </>
 
