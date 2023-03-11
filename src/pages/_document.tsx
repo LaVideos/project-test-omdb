@@ -1,6 +1,6 @@
 import React from 'react';
 import Document, {Html, Head, Main, NextScript, DocumentContext} from 'next/document';
-import {ServerStyleSheets} from '@material-ui/core/styles';
+import {ServerStyleSheets} from "@material-ui/styles";
 
 export default class MyDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {

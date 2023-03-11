@@ -16,11 +16,14 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "@material-ui/core": "^4.12.4",
-    "@material-ui/icons": "^4.11.3",
-    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@material-ui/core": "^5.0.0-beta.5",
+    "@material-ui/icons": "^5.0.0-beta.5",
+    "@material-ui/lab": "^5.0.0-alpha.44",
+    "@material-ui/styles": "^4.11.5",
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.12",
+    "@react-buddy/ide-toolbox": "^2.3.1",
+    "@react-buddy/palette-mui": "^5.0.1",
     "@reduxjs/toolkit": "^1.9.3",
     "@types/node": "18.14.6",
     "@types/react": "^16.8.6",
@@ -32,13 +35,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.5",
-    "react-icons": "^4.8.0",
+    "react-icons": "^4.8.1-snapshot.1",
     "react-paginate": "^8.1.4",
     "react-redux": "^8.0.5",
     "scss": "^0.2.4",
-    "typescript": "4.9.5",
-    "@react-buddy/ide-toolbox": "^2.3.1",
-    "@react-buddy/palette-mui": "^5.0.1"
+    "typescript": "4.9.5"
   },
   "devDependencies": {
     "@types/query-string": "^6.3.0",
