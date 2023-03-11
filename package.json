@@ -2,11 +2,13 @@
   "name": "project-test-omdb",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://LaVideos.github.io/project-test-omdb/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && gh-pages -d build -b main -t true"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -36,6 +38,7 @@
   "devDependencies": {
     "@types/query-string": "^6.3.0",
     "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.0.2",
     "postcss-preset-env": "^8.0.1",

@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import SearchPage from '@/pages/search/_search';
+import SearchPage from '@/pages/search/search';
 
 export default function Home() {
     return (
