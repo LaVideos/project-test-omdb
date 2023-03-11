@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "<https://LaVideos.github.io/project-test-omdb/>",
+  "resolutions": {
+    "react": "^17.0.2"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
